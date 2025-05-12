@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.about_main {
+    width: 100%;
+    padding: 48px 15px 0;
+}
+
+.about_1_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_Content {
+    flex: 1 1 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innter-contenet {
+    padding: 56px 40px;
+    background-color: #F5F7F8;
+}
+
+.innter-contenet h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #242424;
+}
+
+.innter-contenet p {
+    font-size: 18px;
+    color: #242424;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    padding: 11px 55px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #F9D94C;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.about_1_container_img {
+    flex: 1 1 500px;
+}
+
+.imag3456 {
+    width: 100%;
+    height: 100%;
+    max-height: 570px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about_2_container {
+    width: 100%;
+    padding: 50px 20px 30px;
+}
+
+.about_2_content {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.aboutheaidng {
+    text-align: center;
+    font-size: 40px;
+    color: #242424;
+    margin-top: 20px;
+}
+
+.boxses {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 60px auto 10px;
+}
+
+.box3d453 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    background-color: #E3E1DC;
+    display: flex;
+    flex-direction: column;
+}
+
+.height-w {
+    height: 253px;
+}
+
+.box3d453_img {
+    width: 100%;
+    height: 230px;
+}
+
+.box3d453_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box3d453-para {
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.box3d453 p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.box3d453 span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2f2f2f;
+}
+
+.Girfa344 {
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-omre {
+    padding: 11px 60px !important;
+}
+
+.about-section-last {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-section-last_left,
+.about-section-last_right {
+    flex: 1 1 500px;
+}
+
+.about-section-last_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-last_left img {
+    width: 100%;
+    height: 100%;
+    max-height: 660px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about-section-last_right {
+    padding: 18px 20px;
+}
+
+.about-section-last_right h3 {
+    font-size: 35px;
+    word-spacing: 3px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.remove {
+  display: inline;
+}
+
+.about-section-last_right p {
+    font-size: 18px;
+    text-align: center;
+    color: #121212;
+    line-height: 30px;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .about_1_container {
+        flex-direction: column-reverse;
+        gap: 0px;
+        background-color: #F5F7F8;
+        ;
+    }
+
+    .about_1_container_img {
+        width: 100%;
+    }
+
+    .about_Content {
+        flex: inherit;
+    }
+
+    .innter-contenet {
+        padding: 30px 20px;
+    }
+
+    .innter-contenet h2 {
+        font-size: 26px !important;
+    }
+
+    .about-section-last_right h3 {
+        font-size: 25px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .btn1 {
+        font-size: 18px;
+        padding: 12px 35px;
+        width: 100%;
+    }
+
+    .boxses {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .aboutheaidng {
+        font-size: 25px;
+    }
+    .about-section-last {
+        flex-direction: column;
+    }
+    .remove {
+    display: none;
+  }
+
+}
